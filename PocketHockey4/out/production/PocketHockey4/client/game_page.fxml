@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onClick2" onMouseMoved="#BallPosition" prefHeight="600.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller_game_page">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="350.0" pickOnBounds="true">
+         <image>
+            <Image url="@main_game_page.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="client_goal_show" layoutX="292.0" layoutY="247.0" prefHeight="45.0" prefWidth="37.0" rotate="90.0" textFill="#22eb47">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="server_goal_show" layoutX="292.0" layoutY="312.0" prefHeight="45.0" prefWidth="37.0" rotate="90.0" textFill="#15c2b2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="end_msg" alignment="CENTER" layoutX="33.0" layoutY="123.0" prefHeight="150.0" prefWidth="277.0" textFill="#00ea63">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

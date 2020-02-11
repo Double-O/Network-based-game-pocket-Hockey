@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="381.0" fitWidth="600.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Glow-Hockey_pic_2.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button_JoinGame" layoutX="176.0" layoutY="77.0" mnemonicParsing="false" onAction="#GoToGamePage" prefHeight="28.0" prefWidth="234.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Join Game" textAlignment="JUSTIFY" textFill="#111212f4">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font></Button>
+            <Button fx:id="button_Settings" layoutX="176.0" layoutY="134.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="234.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="SettingS" textAlignment="JUSTIFY" textFill="#281313">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="button_Exit" layoutX="176.0" layoutY="194.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="234.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Exit" textAlignment="JUSTIFY" textFill="#281313">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
