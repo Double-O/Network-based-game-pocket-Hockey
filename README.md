@@ -1,1 +1,3 @@
-# Network-based-game-pocket-Hockey-
+# Network-based-game-pocket-Hockey
+
+A networking based 2 player game - used javafx.
